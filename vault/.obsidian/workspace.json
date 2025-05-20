@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "LAVAAAAAA"
             }
+          },
+          {
+            "id": "fe929d6f244dcdb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/sfsA.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "sfsA"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,9 +184,10 @@
       "obsidiosaurus:Obsidiosaurus": false
     }
   },
-  "active": "63d2a28258fcbf13",
+  "active": "fe929d6f244dcdb4",
   "lastOpenFiles": [
     "docs/LAVAAAAAA.md",
+    "docs/sfsA.md",
     "blog",
     "docs",
     "assets"

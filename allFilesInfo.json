@@ -8,10 +8,27 @@
     "parentFolder": "docs",
     "pathSourceAbsolute": "/Users/emilyliles/Documents/repos/lava-dino/vault/docs/LAVAAAAAA.md",
     "pathSourceRelative": "docs/LAVAAAAAA.md",
-    "dateModified": "2025-05-01T20:52:55.938Z",
-    "size": 5,
+    "dateModified": "2025-05-01T22:54:57.519Z",
+    "size": 33,
     "type": "docs",
     "pathTargetRelative": "docs/LAVAAAAAA.md",
-    "pathTargetAbsolute": "/Users/emilyliles/Documents/repos/lava-dino/website/docs/LAVAAAAAA.md"
+    "pathTargetAbsolute": "/Users/emilyliles/Documents/repos/lava-dino/website/docs/LAVAAAAAA.md",
+    "dateModifiedTarget": "2025-05-01T22:55:09.387Z",
+    "sizeTarget": 34
+  },
+  {
+    "fileName": "sfsA.md",
+    "fileNameClean": "sfsA",
+    "fileExtension": ".md",
+    "language": "en",
+    "mainFolder": "docs",
+    "parentFolder": "docs",
+    "pathSourceAbsolute": "/Users/emilyliles/Documents/repos/lava-dino/vault/docs/sfsA.md",
+    "pathSourceRelative": "docs/sfsA.md",
+    "dateModified": "2025-05-13T18:34:39.710Z",
+    "size": 18413,
+    "type": "docs",
+    "pathTargetRelative": "docs/sfsA.md",
+    "pathTargetAbsolute": "/Users/emilyliles/Documents/repos/lava-dino/website/docs/sfsA.md"
   }
 ]

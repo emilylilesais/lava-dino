@@ -31,6 +31,15 @@ const config: Config = {
     locales: ["en"],
   },
 
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // Options here
+      },
+    ],
+  ],
+
   presets: [
     [
       "classic",
@@ -80,7 +89,6 @@ const config: Config = {
           position: "left",
           label: "Docz",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/emilylilesais/lava-dino",
           label: "GitHub",
@@ -93,12 +101,7 @@ const config: Config = {
       links: [
         {
           title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
+          items: [],
         },
         {
           title: "Community",
@@ -120,10 +123,6 @@ const config: Config = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
             {
               label: "GitHub",
               href: "https://github.com/facebook/docusaurus",
