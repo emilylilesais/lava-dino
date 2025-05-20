@@ -1,4 +1,4 @@
-import React, {type ReactNode} from 'react';
+import type {ReactNode} from 'react';
 import SearchBar from '@theme-original/SearchBar';
 import type SearchBarType from '@theme/SearchBar';
 import type {WrapperProps} from '@docusaurus/types';
