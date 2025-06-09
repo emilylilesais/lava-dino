@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "LAVAAAAAA"
             }
-          },
-          {
-            "id": "fe929d6f244dcdb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/sfsA.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "sfsA"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,10 +169,39 @@
       "obsidiosaurus:Obsidiosaurus": false
     }
   },
-  "active": "fe929d6f244dcdb4",
+  "active": "27f0128718d3e359",
   "lastOpenFiles": [
+    "docs/Interplanetary Analysis/Celestial Objects.md",
+    "docs/Using the Optimizer.md",
+    "docs/Tuning an Optimizer.md",
+    "docs/Terrain Obj.md",
+    "docs/test pageee question mark.md",
+    "docs/Terrain Modeling/Working With Terrain.md",
+    "docs/Terrain Modeling/Terrain Modeling.md",
+    "docs/Terrain Modeling/Terrain Index Generator.md",
+    "docs/Terrain Modeling/Terrain Data Files.md",
     "docs/LAVAAAAAA.md",
-    "docs/sfsA.md",
+    "docs/Interplanetary Analysis/Rotating Libration Points.md",
+    "docs/Interplanetary Analysis/Object Central Bodies.md",
+    "docs/Interplanetary Analysis/Interplanetary Analysis.md",
+    "docs/oop i did/again.md",
+    "docs/oop i did",
+    "docs/dino/deeno.md",
+    "docs/dino",
+    "docs/Terrain Modeling",
+    "docs/Interplanetary Analysis",
+    "docs/lava?.md",
+    "assets/partly-sunny.jpg",
+    "docs/workspaces.md",
+    "docs/while3.md",
+    "docs/while2.md",
+    "assets/partly.md",
+    "whilemaneuvering.htm.md",
+    "assets/imagessss.png",
+    "docs/while.md",
+    "urg.md",
+    "docs/[MConverter.eu] try.md",
+    "docs/terrain_data_files.htm.md",
     "blog",
     "docs",
     "assets"
