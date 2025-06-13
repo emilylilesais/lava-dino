@@ -137,6 +137,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      defaultLanguage: "freeflyer-script",
     },
   } satisfies Preset.ThemeConfig,
 };
