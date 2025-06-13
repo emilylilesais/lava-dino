@@ -13,23 +13,32 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "update-search": "docusaurus build && docusaurus serve"
+    "update-search": "docusaurus build && docusaurus serve",
+    "postinstall": "node ./scripts/patchLocalSearchPlugin.mjs",
+    "prettier": "prettier --write \"{scripts,src}/**/*.{js,ts,tsx,mjs,json,css,html}\" ./docusaurus.config.ts ./sidebars.ts"
   },
   "dependencies": {
-    "@docusaurus/core": "3.7.0",
-    "@docusaurus/preset-classic": "3.7.0",
-    "@mdx-js/react": "^3.0.0",
-    "clsx": "^2.0.0",
-    "prism-react-renderer": "^2.3.0",
+    "@cmfcmf/docusaurus-search-local": "^1.2.0",
+    "@docusaurus/core": "3.8.1",
+    "@docusaurus/preset-classic": "3.8.1",
+    "@mdx-js/react": "^3.1.0",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "prismjs": "^1.30.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "@cmfcmf/docusaurus-search-local": "^1.2.0"
+    "utility-types": "^3.11.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.7.0",
-    "@docusaurus/tsconfig": "3.7.0",
-    "@docusaurus/types": "3.7.0",
-    "typescript": "~5.6.2"
+    "@docusaurus/module-type-aliases": "3.8.1",
+    "@docusaurus/tsconfig": "3.8.1",
+    "@docusaurus/types": "3.8.1",
+    "@types/node": "^24.0.1",
+    "@types/prismjs": "^1.26.5",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
   },
   "browserslist": {
     "production": [
@@ -44,6 +53,6 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
+    "node": ">=22.0"
   }
 }
