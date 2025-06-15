@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start:docs": "docusaurus start",
+    "start:watcher": "node --watch ./scripts/watchAssets.mjs",
+    "start": "concurrently --kill-others \"npm run start:docs\" \"npm run start:watcher\"",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -37,6 +39,8 @@
     "@types/prismjs": "^1.26.5",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
+    "chokidar": "^4.0.3",
+    "concurrently": "^9.1.2",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3"
   },
