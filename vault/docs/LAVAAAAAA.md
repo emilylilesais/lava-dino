@@ -6,4 +6,4 @@ Test page for lava
 
   
 
-<!-- ![partly-sunny](//assets/partly-sunny.webp) -->
+![partly-sunny](/assets/partly-sunny.jpg)
