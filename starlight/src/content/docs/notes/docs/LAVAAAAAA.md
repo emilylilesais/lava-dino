@@ -7,4 +7,4 @@ Test page for lava
 
 ## LOOVA BOOVA
 
-![partly-sunny](../../../../assets/notes/assets/partly-sunny.jpg)
+<!-- ![partly-sunny](//assets/partly-sunny.webp) -->

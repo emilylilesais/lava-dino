@@ -3,10 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "start:docs": "astro dev",
-    "start:watcher": "node --watch ./scripts/watch.mjs",
-    "start:old": "concurrently --kill-others \"npm run start:docs\" \"npm run start:watcher\"",
-    "start": "npm run start:docs",
+    "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
