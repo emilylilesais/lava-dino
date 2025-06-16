@@ -1,3 +1,4 @@
-allFilesInfo.json
+.DS_Store
+assetInfo.json
 allSourceAssetsInfo.json
-vault/*
+allFilesInfo.json
